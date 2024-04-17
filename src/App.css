@@ -1,0 +1,186 @@
+
+h3 {
+  color: lightsalmon;
+  font-weight: bold;
+  margin-top: 0;
+
+
+
+  
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  margin-top: 1.5em;
+  background-color: grey;
+  border: none;
+
+}
+
+button {
+  
+  display: block;
+  width: 100%;
+
+ 
+  
+
+  
+}
+
+.score-text {
+  text-align: center;
+  visibility: hidden;
+ 
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80%;
+  background-color: lightgrey;
+  border-radius: 5px;
+
+}
+
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  
+ 
+  /* padding-left: 73px; */
+  /* max-width: 800px; */
+  width: 80%;
+ 
+  
+
+  
+
+  /* padding-bottom: 30px; */
+}
+
+.question-title {
+  margin-top: 1.85em;
+  font-family: karla;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #293264;
+  
+}
+
+.answer-btn {
+  margin-right: 1.25em;
+  margin-top: 0.75em;
+  font-family: inter;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  border-radius: 8px;
+  color: #293264;
+  border: solid 1px #293264;
+  padding: 6px 16px;
+  background: blue;
+  
+}
+
+.check-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin-top: 4em;
+ 
+  
+ 
+}
+.checkAnswers-btn {
+  font-family: inter;
+  font-size: 0.9rem;
+  line-height: 12px;
+  color: #F5F7FB;
+  width: 120px;
+  height: 35px;
+  background: #4D5B9E;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  align-self: center;
+
+  
+  
+}
+
+.menu-container {
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
+.start-container {
+  
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+  
+}
+
+.game-title {
+  font-family: karla;
+  color: #293264;
+  font-size: 2rem;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.game-description {
+  font-family: inter;
+  color: #293264;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-top: 0.45em;
+  
+
+}
+
+.start-btn {
+  background: #4D5B9E;
+  color: #F5F7FB;
+  width: 192px;
+  height: 52px;
+  border-radius: 15px;
+  border-style: none;
+  margin-top: 1.9em;
+  font-family: inter;
+  font-size: 1rem;
+  line-height: 1.25em;
+  font-weight: 500;
+
+
+}
+
+@media (min-width: 600px) {
+  button {
+      display: inline-block;
+      width: fit-content;
+      
+      
+      
+  }
+}
